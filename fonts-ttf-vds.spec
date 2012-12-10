@@ -47,3 +47,10 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/vds -o %{buildroot}%{_xfontdir}/TTF/vds/fo
 %verify(not mtime) %{_datadir}/fonts/TTF/vds/fonts.dir
 %{_xfontdir}/TTF/vds/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-vds:pri=50
+
+
+%changelog
+* Wed Dec 14 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 20110926-1
++ Revision: 741054
+- imported package fonts-ttf-vds
+
