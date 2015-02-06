@@ -3,7 +3,7 @@
 Summary:	VDS font family
 Name:		fonts-ttf-vds
 Version:	20110926
-Release:	1
+Release:	2
 License:	OFL
 Group:		System/Fonts/True type
 URL:		http://openfontlibrary.org/font/vds
